@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const ModalWindow = styled.div`
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 1%;
   transform: translate(-50%);
   background-color: #fff;
   border-radius: 24px;
