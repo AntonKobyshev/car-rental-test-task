@@ -1,6 +1,13 @@
 # Rent A Car
 
-## Rent A Car is an online platform that provides users with the opportunity to discover and lease a diverse range of vehicles for memorable journeys. Whether you desire a sophisticated sedan, an adventurous SUV, or something in between, Rent A Car has the perfect solution. Our easy-to-navigate website simplifies the booking process, and you can be assured that our vehicles undergo rigorous maintenance and cleaning procedures to ensure your safety. Furthermore, we offer competitive rates, allowing you to enjoy luxurious comfort without breaking the bank.
+Rent A Car is an online platform that provides users with the opportunity to
+discover and lease a diverse range of vehicles for memorable journeys. Whether
+you desire a sophisticated sedan, an adventurous SUV, or something in between,
+Rent A Car has the perfect solution. Our easy-to-navigate website simplifies the
+booking process, and you can be assured that our vehicles undergo rigorous
+maintenance and cleaning procedures to ensure your safety. Furthermore, we offer
+competitive rates, allowing you to enjoy luxurious comfort without breaking the
+bank.
 
 # Getting Started with Create React App
 
