@@ -26,6 +26,7 @@ export const Btn = styled.button`
   border: none;
   background-color: var(--blue-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 
   &:hover,
   :focus {
