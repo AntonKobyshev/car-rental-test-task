@@ -21,10 +21,12 @@ import {
   InfoAuto,
 } from './AdvertListItem.styled';
 import svg from '../../assets/images/icons/sprite.svg';
+import placeholderImage from '../../assets/images/placeholder-image.png';
 
 export default function AdvertListItem({ advert, isFavorite }) {
   const [showModal, setShowModal] = useState(false);
   const toggleModal = () => setShowModal(!showModal);
+  const [imageError, setImageError] = useState(false);
 
   const {
     id,
@@ -55,10 +57,18 @@ export default function AdvertListItem({ advert, isFavorite }) {
     dispatch(setFavorite(advert));
   };
 
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
   return (
     <CatalogItem>
       <Container>
-        <ImageAuto src={img} alt={make} />
+        <ImageAuto
+          src={imageError ? placeholderImage : img}
+          alt={make}
+          onError={handleImageError}
+        />
         <FavoriteBtn type="button" onClick={handleClickFavorite}>
           {isFavorite ? (
             <FavoriteHeart width="18" height="18">
